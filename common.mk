@@ -194,22 +194,15 @@ PRODUCT_PACKAGES += \
 
 # Common init scripts
 PRODUCT_PACKAGES += \
-    ftm_power_config.sh \
     init.class_main.sh \
     init.crda.sh \
     init.mdm.sh \
-    init.oem.debug.rc \
-    init.oem.minidump.sdx55m.rc \
     init.oem.rc \
-    init.oem.sec.rc \
-    init.oem_ftm.rc \
     init.opcamera.rc \
-    init.oplus_chg.sh \
     init.qcom.class_core.sh \
     init.qcom.coex.sh \
     init.qcom.early_boot.sh \
     init.qcom.efs.sync.sh \
-    init.qcom.factory.rc \
     init.qcom.post_boot.sh \
     init.qcom.rc \
     init.qcom.sdio.sh \
@@ -218,13 +211,10 @@ PRODUCT_PACKAGES += \
     init.qcom.usb.sh \
     init.qti.chg_policy.sh \
     init.qti.dcvs.sh \
-    init.qti.ims.sh \
     init.qti.qcv.sh \
     init.recovery.qcom.rc \
     init.target.rc \
-    ueventd.qcom.rc \
-    vendor.oem_ftm.rc \
-    vendor.oem_ftm_svc_disable.rc
+    ueventd.qcom.rc
 
 # Component overrides
 PRODUCT_COPY_FILES += \
